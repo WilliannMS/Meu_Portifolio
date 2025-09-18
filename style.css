@@ -1,0 +1,317 @@
+body{
+  background: linear-gradient(to left, #60616e, #06141b);
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.c1{
+  list-style: none;
+  display: flex;
+}
+
+.l1 a{
+  font-family: "Special Gothic Expanded One", sans-serif;
+  transition: 0.4s;
+  font-size: 20px;
+  color: white;
+  margin-left: 40px;
+  text-align: start;
+  display: inline-blo
+  letter-spacing: 3px;
+}
+
+.l1 a:hover{
+  text-shadow: 0 3px 15px rgba(255,255,255);
+  transform: scale(1.1);
+}
+
+.ft1{
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  border: 10px solid #9ba8ab;
+  animation: shadowMove 2s infinite alternate;
+}
+
+@keyframes shadowMove {
+  0%{
+    box-shadow: 0 0 10px #9ba8ab;
+  }
+  50%{
+    box-shadow: 10px 10px 20px #9ba8ab;
+  }
+  100%{
+    box-shadow: -10px -10px 20px #9ba8ab;
+  }
+}
+
+@keyframes Textglow {
+  0%{
+    text-shadow: 0 0 10px #9ba8ab;
+  }
+  50%{
+    text-shadow: 10px 10px 20px #9ba8ab;
+  }
+  100%{
+    text-shadow: -10px -10px 20px #9ba8ab;
+  }
+}
+
+.tx1{
+  font-family: Sans-Serif;
+  font-size: 60px;
+  margin-bottom: -10px;
+  color: white;
+}
+
+.tx2{
+  font-size: 120px;
+  color: #9ba8ab;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  margin-top: 0 ;
+  letter-spacing: 5px;
+}
+
+.curriculo{
+  display: flex;
+  margin-left: 600px;
+}
+
+.btndw{
+  background-color: #11212d;
+  border-radius: 30px;
+  font-family: "Special Gothic Expanded One";
+  font-size: 15px;
+  font-style: none;
+  color: white;
+  animation: shadowMove 4s infinite alternate;
+  text-decoration: none;
+}
+
+.c2{
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  margin-top: 100px;
+  margin-left: 40px;
+}
+
+.txts{
+  margin-left: -100px;
+  margin-bottom: 30px;
+}
+
+.p1{
+  font-size: 25px;
+  background-color: #11212d;
+  color: white;
+  font-family: Arial;
+  margin-top: -40px;
+  letter-spacing: 15px;
+}
+
+.painel1, .painel2{
+  background-color: #11212d;
+  border-radius: 20px;
+  height: 500px;
+  width: 450px;
+  animation: shadowMove 2s infinite alternate;
+}
+
+.c3{
+ display: flex; 
+ justify-content: space-around;
+ margin-top: 90px;
+}
+
+.i3, .i4{
+  color: white;
+  font-size: 40px;
+  font-family: "Special Gothic Expanded One", sans-serif; 
+  text-align: center;
+}
+
+.skl{
+  color: white;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-size: 100px;
+  margin-top: 280px;
+  letter-spacing: 30px;
+  text-align: center;
+  animation: Textglow 2s infinite alternate;
+}
+
+.i0{
+  width: 100px;
+  height: 100px;
+}
+
+.p1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  margin-top: 30px;
+}
+
+.p2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  gap: 80px;
+  margin-top: 50px;
+}
+
+.pl1{
+  display: flex; 
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.pl2{
+  display: flex; 
+  gap: 80px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+.i1{
+  width: 80px;
+  height: 80px; 
+}
+
+.i11{
+  width: 80px;
+  height: 80px; 
+  margin-right: 20px;
+}
+
+.fo1{
+  font-family:"Special Gothic Expanded One" ;
+  font-size: 50px;
+  color: white;
+  background-color:#11212d ;
+  border-radius: 40px;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 150px;
+  animation: shadowMove 2s infinite alternate;
+}
+
+.fo2{
+  font-size: 30px; 
+  font-family: Sans-Serif;
+  color: white;
+  margin-top: 15px;
+  margin-left: 40px;
+}
+
+.acr1, .acr2{
+  font-size: 25px;
+  background-color: #11212d;
+  font-family: "Special Gothic Expanded One";
+  display: flex;
+  display: inline-block;
+  border-radius: 10px;
+  margin-left: 40px;
+  color: #9ba8ab;
+}
+
+.fv1{
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 30px;
+  border-radius: 45px;
+}
+
+.pn1{
+  margin-bottom: 20px;
+}
+
+.fv2{
+ border-radius: 45px; 
+ padding: 20px;
+ margin-top: 20px;
+ width: 270px;
+ height: 190px;
+}
+
+.topo{
+  font-size: 25px;
+  font-family:"Special Gothic Expanded One" ;
+  margin-top: 30px;
+  color: white;
+  margin-right: 100px;
+  display: inline-block;
+  display: flex;
+}
+
+.autorais{
+  margin-left: 40px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.tp1{
+  padding: 60px;
+}
+
+.total2{
+  margin-top: 100px;
+}
+
+.loc{
+  color: white;
+  font-size: 20px;
+  margin-top: 250px;
+  font-family:"Special Gothic Expanded One" ;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fot1{
+  background-color: #11212d;
+  justify-content: space-between;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  display: flex;
+}
+
+.pn2{
+  margin-bottom: 120px;
+}
+
+.copy{
+  color: white;
+  margin-bottom: 0px;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+.etx1{
+  display: inline-block;
+  margin-right: 220px;
+  
+}
+
+
+
+
